@@ -1,0 +1,150 @@
+E:\MURALI\10Days-ReactJS\day2-training>git config --global user.name
+narresh369
+
+E:\MURALI\10Days-ReactJS\day2-training>git config --global user.email
+venkatdada369@gmail.com
+
+
+CONFIGURE GIT[ONE TIME]
+git config --global user.name "narresh369"
+git config --global user.email "venkatdada369@gmail.com"
+
+Check your settings:
+git config --list
+
+You should see:
+user.name=narresh369
+user.email=venkatdada369@gmail.com
+=========================================================================
+---
+
+ Step 1 – Create a GitHub Account
+
+1. Go to [https://github.com](https://github.com)
+2. Click Sign up (top right)
+3. Fill in:
+
+    Username (e.g., `narresh369`)
+    Email (e.g., `venkatdada369@gmail.com`)
+    Password
+4. Verify email (GitHub sends a code).
+5. Log in to your new account.
+
+---
+
+ Step 2 – Create a New Repository on GitHub
+
+1. Once logged in, click the + button (top right) → New repository.
+2. Fill in:
+
+    Repository name: `sample-js-project`
+    Description: (optional) "My first HTML + JS project"
+    Choose Public
+    Do NOT tick "Initialize with README" (we’ll add files from local system).
+3. Click Create repository.
+4. GitHub will now show you a page with commands to connect your local project — keep this page open.
+
+---
+
+ Step 3 – Configure Git Globally (One-time Setup)
+
+Open Terminal (Mac/Linux) or Git Bash (Windows) and run:
+
+```bash
+git config --global user.name "narresh369"
+git config --global user.email "venkatdada369@gmail.com"
+```
+
+Check your settings:
+
+```bash
+git config --list
+```
+
+You should see:
+
+```
+user.name=narresh369
+user.email=venkatdada369@gmail.com
+```
+
+---
+
+ Step 4 – Create a Local Project Folder
+
+```bash
+ Go to your preferred directory
+cd Desktop
+
+ Create a folder
+mkdir sample-js-project
+cd sample-js-project
+
+ Create HTML and JS files
+echo "<!DOCTYPE html>
+<html>
+<head>
+<title>Sample Project</title>
+</head>
+<body>
+<h1>Hello GitHub!</h1>
+<script src='script.js'></script>
+</body>
+</html>" > index.html
+
+echo "console.log('Hello from JavaScript');" > script.js
+```
+
+---
+
+ Step 5 – Initialize Git in the Project
+
+```bash
+git init
+```
+
+This creates a `.git` folder inside your project — meaning Git is now tracking it.
+
+---
+
+ Step 6 – Add Files to Git & Commit
+
+```bash
+git add .
+git commit -m "Initial commit - added index.html and script.js"
+```
+
+---
+
+ Step 7 – Link Local Repo to GitHub Repo
+
+From the GitHub page (Step 2), copy the HTTPS URL, e.g.:
+
+```
+https://github.com/YOUR_USERNAME/sample-js-project.git
+```
+
+Then run:
+
+```bash
+git remote add origin https://github.com/YOUR_USERNAME/sample-js-project.git
+```
+
+---
+
+ Step 8 – Push to GitHub
+
+```bash
+git branch -M main
+git push -u origin main
+```
+
+---
+
+✅ Done! — Your HTML + JS files are now live on GitHub.
+You can open your repo in a browser and see them.
+
+---
+
+💡 If you want, I can make you a ready-to-use HTML + JS template with some JavaScript utility functions and a README.md so your students can push it as their first Git project.
+Do you want me to prepare that?
