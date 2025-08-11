@@ -1,0 +1,42 @@
+*****************************************************************************
+git init
+git add .
+git commit -m "Initial commit - added index.html and script.js"
+git remote add origin https://github.com/narresh369/sample-js-project.git
+git branch -M main
+git push -u origin main
+*****************************************************************************
+
+
+Microsoft Windows [Version 10.0.26100.4770]
+(c) Microsoft Corporation. All rights reserved.
+
+E:\MURALI\10Days-ReactJS\day2-training\sample-js-project>git init
+Initialized empty Git repository in E:/MURALI/10Days-ReactJS/day2-training/sample-js-project/.git/
+
+E:\MURALI\10Days-ReactJS\day2-training\sample-js-project>git add .
+
+E:\MURALI\10Days-ReactJS\day2-training\sample-js-project>git commit -m "Initial commit - added index.html and script.js"
+[master (root-commit) 4761cfa] Initial commit - added index.html and script.js
+ 4 files changed, 207 insertions(+)
+ create mode 100644 README.md
+ create mode 100644 STEPS.txt
+ create mode 100644 index.html
+ create mode 100644 script.js
+
+E:\MURALI\10Days-ReactJS\day2-training\sample-js-project>git remote add origin https://github.com/narresh369/sample-js-project.git
+
+E:\MURALI\10Days-ReactJS\day2-training\sample-js-project>git branch -M main
+
+E:\MURALI\10Days-ReactJS\day2-training\sample-js-project>git push -u origin main
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 2.56 KiB | 873.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/narresh369/sample-js-project.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+E:\MURALI\10Days-ReactJS\day2-training\sample-js-project>

@@ -1,0 +1,39 @@
+making a change in index.html and pushing it to GitHub step-by-step.
+
+1. Edit index.html
+Change the heading and add a new paragraph:
+
+<h1>Welcome to My First GitHub Project 🎉</h1>
+<p>This is a sample HTML + JavaScript project.</p>
+<p style="color: teal;">This line was added as my first Git update! 🚀</p>
+<button onclick="sayHello()">Click Me</button>
+
+
+2. Check Git Status
+In your terminal:
+
+git status
+
+You’ll see:
+modified: index.html
+
+3. Stage the Change
+git add index.html
+
+
+4. Commit the Change
+git commit -m "Updated index.html with new paragraph"
+
+
+5. Push to GitHub
+git push
+
+If it’s the first push to main:
+git push -u origin main
+
+6. Verify
+Go to your GitHub repo page.
+You’ll see index.html updated.
+Click History to view your commits.
+
+

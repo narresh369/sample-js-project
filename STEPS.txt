@@ -122,6 +122,11 @@ From the GitHub page (Step 2), copy the HTTPS URL, e.g.:
 
 ```
 https://github.com/YOUR_USERNAME/sample-js-project.git
+https://github.com/narresh369/sample-js-project.git
+
+git remote add origin https://github.com/YOUR_USERNAME/sample-js-project.git
+git remote add origin https://github.com/narresh369/sample-js-project.git
+
 ```
 
 Then run:
